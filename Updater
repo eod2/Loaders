@@ -1,0 +1,27 @@
+
+
+-- Configuration
+local config = {
+    Features = {
+        BulletTP = true,
+        CameraLock = false,
+        KOCheck = false,
+        Triggerbot = {
+            Enabled = false,
+            Keybind = Enum.KeyCode.T,
+        },
+        Notifications = {
+            Enabled = true,
+        }
+    },
+    Target = {
+        Part = "Head",
+        KOCheck = false,
+    },
+    Keybinds = {
+        LockTarget = Enum.KeyCode.C,
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eod2/DH/refs/heads/main/BulletTp"))()
