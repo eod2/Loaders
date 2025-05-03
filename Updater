@@ -1,5 +1,23 @@
 
+--[[
+    Made by c.dl(eod) 
+    This script is verified by eod lol 
+    Was not suppose to be released but yeah enjoy it 
+    
+    NOTE** DOESNT WORK ON SOLARA NOR XENO SO DONT TRY
 
+ /$$$$$$$$  /$$$$$$   /$$$$$$  /$$$$$$$ 
+| $$_____/ /$$__  $$ /$$__  $$| $$__  $$
+| $$      | $$  \ $$| $$  \ $$| $$  \ $$
+| $$$$$   | $$  | $$| $$  | $$| $$  | $$
+| $$__/   | $$  | $$| $$  | $$| $$  | $$
+| $$      | $$  | $$| $$  | $$| $$  | $$
+| $$$$$$$$|  $$$$$$/|  $$$$$$/| $$$$$$$/
+|________/ \______/  \______/ |_______/ 
+                                        
+                                        
+]]
+                                       
 -- Configuration
 local config = {
     Features = {
