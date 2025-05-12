@@ -17,27 +17,25 @@
                                         
                                         
 ]]
-                                       
--- Configuration
-local Config = {
+
+-- will it always be free?
+   getgenv().eod = { 
     Settings = {
         Notifications = true
     },
-
     Features = {
         BulletTP = true,
-        CameraLock = false,
+        CameraLock = true,
         KOCheck = false,
         Triggerbot = false
     },
-
     Targeting = {
         PreferredPart = "Head"
     },
-
     Keybinds = {
         LockTarget = Enum.KeyCode.C,
-        ToggleTriggerbot = Enum.KeyCode.T
+        ToggleTriggerbot = Enum.KeyCode.T,
+        ToggleCameraLock = Enum.KeyCode.L
     }
 }
 
