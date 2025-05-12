@@ -18,6 +18,7 @@
                                         
 ]]
                                        
+-- Configuration
 local Config = {
     Settings = {
         Notifications = true
@@ -39,5 +40,6 @@ local Config = {
         ToggleTriggerbot = Enum.KeyCode.T
     }
 }
+
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/eod2/DH/refs/heads/main/BulletTp"))()
