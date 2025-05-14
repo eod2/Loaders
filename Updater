@@ -19,25 +19,30 @@
 ]]
 
 -- will it always be free?
-   getgenv().eod = { 
+getgenv().eod = {
     Settings = {
         Notifications = true
     },
     Features = {
         BulletTP = true,
         CameraLock = true,
-        KOCheck = false,
+        KOCheck = true,
         Triggerbot = false
+    },
+    Prediction = {
+        UseVelocity = false,      
+        Value = 0.165            
     },
     Targeting = {
         PreferredPart = "Head"
     },
     Keybinds = {
-        LockTarget = Enum.KeyCode.C,
+        LockTarget = Enum.KeyCode.G,
         ToggleTriggerbot = Enum.KeyCode.T,
         ToggleCameraLock = Enum.KeyCode.L
     }
 }
+
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/eod2/DH/refs/heads/main/BulletTp"))()
