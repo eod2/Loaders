@@ -19,6 +19,7 @@
 ]]
 
 -- will it always be free?
+-- discontinuing the script soo :(
 getgenv().eod = {
     Settings = {
         Notifications = true
@@ -26,20 +27,24 @@ getgenv().eod = {
     Features = {
         BulletTP = true,
         CameraLock = true,
-        KOCheck = true,
+        KOCheck = false,
         Triggerbot = false
     },
     Prediction = {
-        UseVelocity = false,      
-        Value = 0.165            
+        UseVelocity = false,
+        Value = 0.165
     },
     Targeting = {
         PreferredPart = "Head"
     },
     Keybinds = {
-        LockTarget = Enum.KeyCode.G,
+        LockTarget = Enum.KeyCode.C,
         ToggleTriggerbot = Enum.KeyCode.T,
         ToggleCameraLock = Enum.KeyCode.L
+    },
+    Whitelist = { -- doesnt lock/shoot onto whitelisted players / you can add more users 
+        ["eod"] = true,
+        ["c.dl"] = true
     }
 }
 
